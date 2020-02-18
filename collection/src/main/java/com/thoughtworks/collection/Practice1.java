@@ -10,11 +10,11 @@ public class Practice1 {
     }
 
     /**
-     *  生成10个0到20的随机整数，要求不能重复
+     * 生成10个0到20的随机整数，要求不能重复
      */
     public static Collection<Integer> randomNumber() {
         Collection<Integer> randomNumbers = new HashSet<>();
-        while (randomNumbers.size()!=10){
+        while (randomNumbers.size() != 10) {
             randomNumbers.add(new Random().nextInt(21));
         }
         return randomNumbers;

@@ -1,5 +1,6 @@
 package com.thoughtworks.collection;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Practice2 {
@@ -12,7 +13,11 @@ public class Practice2 {
      * 创建一个List 然后在List中添加0到100整数
      */
     public static List<Integer> getNumbers() {
-        return null;
+        List<Integer> numbers = new ArrayList<>();
+        for (int i = 1; i < 101; i++) {
+            numbers.add(i);
+        }
+        return numbers;
     }
 
 

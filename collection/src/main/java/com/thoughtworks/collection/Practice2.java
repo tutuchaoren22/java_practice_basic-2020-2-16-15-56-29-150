@@ -16,7 +16,7 @@ public class Practice2 {
         for (Integer number : numbers) {
             System.out.println(number);
         }
-        
+
         Iterator<Integer> iterator = numbers.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
